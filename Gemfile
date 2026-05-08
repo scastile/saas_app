@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0'
+gem 'rails', '~> 6.1.7'
 # Use Puma as the app server
-gem 'puma', '3.12.6'
+gem 'puma', '~> 6.4'
 # Use SCSS for stylesheets
-gem 'sass-rails', '5.0.6'
+gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '3.0.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.1'
+gem 'coffee-rails', '~> 5.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -19,7 +19,7 @@ gem 'jquery-rails', '4.1.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '2.5.0'
+gem 'jbuilder', '~> 2.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
@@ -44,7 +44,7 @@ gem 'devise', '4.7.1'
 gem 'stripe', '1.48.0'
 
 #Use Figaro  for ENV variables
-gem 'figaro', '1.1.1'
+gem 'figaro', '~> 1.2'
 
 #Use Paperclip for image upload
 gem 'paperclip', '5.2.0'
@@ -67,9 +67,9 @@ end
 
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
-  gem 'pg', '0.18.4'
+  gem 'pg', '~> 1.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby '2.3.0'
+ruby '>= 2.7.0'
