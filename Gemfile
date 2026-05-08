@@ -11,7 +11,7 @@ gem 'sassc-rails', '~> 2.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '3.0.0'
 # Use jQuery as the JavaScript library
-gem 'jquery-rails', '4.1.1'
+gem 'jquery-rails', '4.4.0'
 # Turbo Drive for fast navigation (replaces Turbolinks in Rails 7)
 gem 'turbo-rails'
 # Build JSON APIs with ease
